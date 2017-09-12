@@ -1,0 +1,9 @@
+#headline {
+    border: 5px solid black;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+h2, h4 {
+    text-shadow: 3px 2px black;
+    font-weight: bolder;
+}
