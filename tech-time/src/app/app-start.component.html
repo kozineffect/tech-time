@@ -1,8 +1,9 @@
+<app-nav-init></app-nav-init>
 <div class="jumbotron text-center">
     <h1 id="headline">Time Saver</h1>
     <h3>Save RO times and keep track of your paycheck.</h3>
 </div>
-<div class="jumbotron">
+<div class="jumbotron" id="carousel">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -16,7 +17,7 @@
                   <h2>Log In</h2>
                   <h4>Don't just stand there! Get to work!</h4>
               </div>
-            <img class="d-block w-100" src="../assets/img/login.jpg" alt="First slide">
+            <img class="rounded mx-auto d-block" id="img-carousel" src="../assets/img/login.jpg" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
                 <a routerLink="/signin" routerLinkActive="active">
                     <h2>Log In</h2>
@@ -25,14 +26,16 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="../assets/img/signup.jpg" alt="Second slide">
+            <img class="rounded mx-auto d-block" id="img-carousel" src="../assets/img/signup.jpg" alt="Second slide">
             <div class="carousel-caption d-none d-md-block">
-                <h2>Sign Up</h2>
+                <a routerLink="/signup" routerLinkActive="active">
+                    <h2>Sign Up</h2>
+                </a>
                 <h4>Start saving time!</h4>
               </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="../assets/img/news.jpg" alt="Third slide">
+            <img class="rounded mx-auto d-block" id="img-carousel" src="../assets/img/news.jpg" alt="Third slide">
             <div class="carousel-caption d-none d-md-block">
                 <a href="http://www.autonews.com">
                     <h2>News from your world!</h2>
@@ -41,7 +44,7 @@
               </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="../assets/img/ase.png" alt="Fourth slide">
+            <img class="rounded mx-auto d-block" id="img-carousel" src="../assets/img/ase.png" alt="Fourth slide">
             <div class="carousel-caption d-none d-md-block">
                 <a href="http://www.ase.com">
                     <h2>ASE</h2>
